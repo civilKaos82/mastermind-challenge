@@ -1,31 +1,5 @@
 # Mastermind
 
-##Learning Competencies
-
-* Use modeling to translate problems into code
-  * Decompose a problem into smaller, easier-to-solve components
-  * Diagram the relationship between the 'real world' and 'code'
-  * Elucidate the action of a method with a real world example
-  * Model a real world system using ruby code
-  * Translate between different modes of modeling a problem (user stories, diagrams, pseudocode, etc.)
-  * Use Pseudocode effectively to model problem-solving
-  * Read Pseudocode and translate to code
-  * Identify limitations of model approximation of a problem
-  * Identify the possible states of a program and explain under what conditions it will enter each state
-
-* Utilize common data structures
-  * Manipulate and access data in any of the common data structures
-  * Determine when to use a particular data structure
-  * Manipulate and access array data in simple and nested arrays
-
-* Implement Object Oriented programming practices:
-  * Create well-defined classes with a single responsibility
-  * Identify and implement classes based on real world requirements
-  * Implement clean and flexible interfaces between objects
-  * Use composition to give structure to more complex objects
-  * Use the model-view-controller pattern to organize code and decouple concerns
-  * Decompose a problem in various dimensions including (but not limited to): separation of concerns, law of demeter, frequency of use, frequency of change, encapsulation, loose coupling, and the single-responsibility principle
-
 ##Summary
 
 Build a command line version of the classic puzzle game [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) (otherwise known as [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_cows)).
