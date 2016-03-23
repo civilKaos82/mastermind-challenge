@@ -12,6 +12,10 @@ The codebreaker has 12 chances to correctly guess the code.  After each incorrec
 The codebreaker wins if the code is correctly guessed within 12 guesses.  The code maker wins if the codebreaker does not correctly guess the code.
 
 
+### Code Makers and Codebreakers
+In our application, the computer will assume the role of the code maker.  Users will take on the role of the codebreaker.  When the application begins, the computer will create a code.  Users will have 12 attempts to guess the code.  The computer will need to provide feedback to the user after each incorrect guess.
+
+
 ### Communicating Feedback on Guesses
 After each incorrect guess, the codebreaker receives feedback on how close the guess is to the actual code.  In Figure 1, we see two methods of providing this feedback (i.e., the correctness indicators).  First are *key pegs*.  Colored key pegs (red in Figure 1) indicate that a guessed peg is the correct color and in the correct position; white key pegs indicate that a guessed peg is the correct color but in the wrong position.  The second method is a string like *0A2B*; this particular string indicates that zero guessed pegs are the correct color and in the correct position (*0A*) and that two guessed pegs are the correct color but in the wrong position (*2B*). In our application, we can use either of these methods or another method.
 
@@ -25,13 +29,6 @@ After each incorrect guess, the codebreaker receives feedback on how close the g
 - Use a whiteboard or piece of paper to model the various components of the game. Think about how you will represent the board, the rows and the pegs.
 - From your whiteboarded design, pseudocode classes (blueprints for objects), data structures (the state of your objects), and methods (the behavior of your objects) you will use.
 
-###Release 1 :  Determine the gameplay
-
-- The user assumes the role of Player Two and the computer, as Player One, chooses four random pegs.
-- The user chooses four colored pegs.
-- The computer informs the user of how many pegs were correctly positioned and how many were the correct color in the wrong position.
-- The history of the user's choices and the correctness of the positions remains on the screen for each turn.
-- The game ends after the user correctly guesses the computer's combination or after 12 incorrect guesses.
 
 ###Release 2 :  Refactor
 
