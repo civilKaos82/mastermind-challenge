@@ -22,12 +22,9 @@ After each incorrect guess, the codebreaker receives feedback on how close the g
 ![Mastermind Board Example](readme-assets/mastermind_example.jpg "Mastermind Board Example")  
 *Figure 1*.  Example Mastermind board with feedback on incorrect guesses provided.
 
-##Releases
-
-###Release 0 : Design the system
-
-- Use a whiteboard or piece of paper to model the various components of the game. Think about how you will represent the board, the rows and the pegs.
-- From your whiteboarded design, pseudocode classes (blueprints for objects), data structures (the state of your objects), and methods (the behavior of your objects) you will use.
+## Releases
+### Pre-release: Design the System
+Using a whiteboard or piece of paper, model the various components of the game. Think about how we'll represent the board, the code, the guesses, the pegs, etc.  Based on the design, pseudocode the classes (blueprints for objects), data structures (the state of your objects), and methods (the behavior of your objects) that will make up our application.
 
 
 ###Release 2 :  Refactor
