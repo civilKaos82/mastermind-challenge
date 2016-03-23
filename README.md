@@ -1,24 +1,22 @@
 # Mastermind
 
-##Summary
+## Summary
+Build a command-line version of the classic puzzle game [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) (otherwise known as [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_cows)).
 
-Build a command line version of the classic puzzle game [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) (otherwise known as [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_cows)).
 
-###Game Components
-1. The game board is 4 columns wide and 12 rows high.
-2. The pegs that are placed in the slots on the game board can be one of six colors.
+### Gameplay
+One player, the code maker, selects four colored pegs and creates a code (e.g., teal, blue, gray, and white; see Figure 1).  The pegs come in six colors and colors can be repeated.  Once the code is created, the codebreaker tries to guess the code:  the correct colors in the correct sequence.
 
-###Gameplay
-1. Player one chooses four pegs, each of any color, in a specific order. Player two should not be able to see the pegs that player one chooses until the end of the game.
-2. Player two has up to 12 turns to guess the exact color and order of the pegs that player one chose. Player two places these pegs in the first row of the board.
-3. After each guess, player one informs player two of:
-  1. how many pegs of the four were the correct color and in the correct location (these are usually signified by smaller red pegs or a numeral followed by an 'A'); and
-  2. how many pegs of the four were the correct color but in the wrong location (these are usually signified by smaller white pegs or the a numeral followed by a 'B').
-4. Player two wins the game if she correctly guesses all four colors and locations.
-5. Player two loses if she does not guess all four locations after 12 turns.
+The codebreaker has 12 chances to correctly guess the code.  After each incorrect guess, the code maker provides two pieces of information to the codebreaker:  (1) the number of pegs of the right color in the right position and (2) the number of pegs of the right color but in the wrong position.
 
-###Example board
-![Mastermind Board Example](mastermind_example.jpg "Mastermind Board Example")
+The codebreaker wins if the code is correctly guessed within 12 guesses.  The code maker wins if the codebreaker does not correctly guess the code.
+
+
+### Communicating Feedback on Guesses
+After each incorrect guess, the codebreaker receives feedback on how close the guess is to the actual code.  In Figure 1, we see two methods of providing this feedback (i.e., the correctness indicators).  First are *key pegs*.  Colored key pegs (red in Figure 1) indicate that a guessed peg is the correct color and in the correct position; white key pegs indicate that a guessed peg is the correct color but in the wrong position.  The second method is a string like *0A2B*; this particular string indicates that zero guessed pegs are the correct color and in the correct position (*0A*) and that two guessed pegs are the correct color but in the wrong position (*2B*). In our application, we can use either of these methods or another method.
+
+![Mastermind Board Example](readme-assets/mastermind_example.jpg "Mastermind Board Example")  
+*Figure 1*.  Example Mastermind board with feedback on incorrect guesses provided.
 
 ##Releases
 
