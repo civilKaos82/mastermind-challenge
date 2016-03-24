@@ -55,9 +55,5 @@ This is an optional release.  Add a feature or two to the game.  Some suggestion
 - Implement a [code-breaking algorithm][].
 
 
-##Resources
-* Wikipedia entries on [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) and [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_cows)
-* [The math behind the most efficient solving algorithm](http://mathworld.wolfram.com/Mastermind.html)
-
 [code-breaking algorithm]: http://mathworld.wolfram.com/Mastermind.html
 [game play animation]: readme-assets/mastermind-animation.gif
