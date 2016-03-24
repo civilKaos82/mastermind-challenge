@@ -34,16 +34,15 @@ Using a whiteboard or piece of paper, model the various components of the game (
 Following our design from the *Pre-release* section, implement the gameplay as described in the *Summary*.  Figure 2 provides an example implementation, which we may choose to emulate or not; just be sure that users' previous guesses and feedback are visible when making the next guess.  Of course, if anything is missing from our design or we find better alternatives, we are free to modify our design.  Ensure that the objects' behaviors are tested.
 
 
-###Release 2 :  Refactor
+### Release 1: Refactor
+Refactor our code. Apply the concepts from Practical Object-oriented Design in Ruby, specifically Chapters 2 - 4. Questions be might ask ourselves:
 
-Refactor your code. Keep in mind the concepts from POODR chapters 2-4. Ask yourself some of the following questions:
-
-- Is it DRY?
+- Is the code DRY?
 - Are the methods and variables appropriately named?
-- Does it utilize appropriate data structures?
-- Is it concise and comprehensible?
+- Are the chosen data structures appropriate?
+- Is the code concise and comprehensible?
 - Do each of the classes and methods have a single responsibility?
-- Whose job is it  to perform which behavior (i.e. which class should contain which methods)?
+- Is each responsibility assigned to an appropriate object (i.e., which object's job is it to perform which behaviors)?
 
 ###Release 3 : Add features (optional)
 
