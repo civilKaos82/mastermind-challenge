@@ -44,19 +44,20 @@ Refactor our code. Apply the concepts from Practical Object-oriented Design in R
 - Do each of the classes and methods have a single responsibility?
 - Is each responsibility assigned to an appropriate object (i.e., which object's job is it to perform which behaviors)?
 
-###Release 3 : Add features (optional)
 
-- Two player functionality
-  - Another human player can choose the hidden colors (make sure that you include some mechanism such that Player Two cannot see the colors and positions that Player One chooses).
-  - Make it competitive! Allow the two human players to alternate playing and choosing and keep track of how quickly each player wins the game (number of choices, time to win or both).
-- Persistence
-  - When playing against the computer or another human, ask for each player's username. Use a CSV file to rank players by how quickly they win the game.
-- Difficulty levels
-  - Allow the user to choose how many columns, rows and peg colors to play with.
-  - What makes for an easier or harder game?
+### Release 3: Add Features *(optional)*
+This is an optional release.  Add a feature or two to the game.  Some suggestions:
+
+- Allow a second user to replace the computer as the code maker.
+- Allow two users to play head-to-head for a specified number of rounds, alternating the code maker and codebreaker roles.  Develop a scoring system or follow the official system: the code maker gets one point for each guess made by the codebreaker.
+- Keep stats.  Record usernames and outcomes for each game played (e.g., in a CSV file).  Who breaks codes in the least number of guesses?  Whose codes are most difficult to break?
+- Allow the user to adjust the difficulty level (e.g., fewer or more color options, shorter or longer codes, fewer or more guesses).
+- Implement a [code-breaking algorithm][].
+
 
 ##Resources
 * Wikipedia entries on [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) and [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_cows)
 * [The math behind the most efficient solving algorithm](http://mathworld.wolfram.com/Mastermind.html)
 
+[code-breaking algorithm]: http://mathworld.wolfram.com/Mastermind.html
 [game play animation]: readme-assets/mastermind-animation.gif
