@@ -12,7 +12,7 @@ The codebreaker has 12 chances to correctly guess the code.  After each incorrec
 The codebreaker wins if the code is correctly guessed within 12 guesses.  The code maker wins if the codebreaker does not correctly guess the code.
 
 
-### Code Makers and Codebreakers
+### Code Maker and Codebreaker Roles
 In our application, the computer will assume the role of the code maker.  Users will take on the role of the codebreaker.  When the application begins, the computer will create a code.  Users will have 12 attempts to guess the code.  The computer will need to provide feedback to the user after each incorrect guess.
 
 
