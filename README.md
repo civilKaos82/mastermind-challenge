@@ -24,7 +24,10 @@ After each incorrect guess, the codebreaker receives feedback on how close the g
 
 ## Releases
 ### Pre-release: Design the System
-Using a whiteboard or piece of paper, model the various components of the game. Think about how we'll represent the board, the code, the guesses, the pegs, etc.  Based on the design, pseudocode the classes (blueprints for objects), data structures (the state of your objects), and methods (the behavior of your objects) that will make up our application.
+Using a whiteboard or piece of paper, model the various components of the game (see Figure 2 for an example implementation).  How might we represent the board, the code, the guesses, the pegs, etc.?  What types of objects will we need?  What behaviors will the objects need?  What types of relationships will exist between the objects?  How will the objects interface with each other?
+
+![game play animation][]  
+*Figure 2*.  Example game implementation.
 
 
 ###Release 2 :  Refactor
@@ -52,3 +55,5 @@ Refactor your code. Keep in mind the concepts from POODR chapters 2-4. Ask yours
 ##Resources
 * Wikipedia entries on [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) and [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_cows)
 * [The math behind the most efficient solving algorithm](http://mathworld.wolfram.com/Mastermind.html)
+
+[game play animation]: readme-assets/mastermind-animation.gif
