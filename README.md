@@ -30,6 +30,10 @@ Using a whiteboard or piece of paper, model the various components of the game (
 *Figure 2*.  Example game implementation.
 
 
+### Release 0: Build the Application
+Following our design from the *Pre-release* section, implement the gameplay as described in the *Summary*.  Figure 2 provides an example implementation, which we may choose to emulate or not; just be sure that users' previous guesses and feedback are visible when making the next guess.  Of course, if anything is missing from our design or we find better alternatives, we are free to modify our design.  Ensure that the objects' behaviors are tested.
+
+
 ###Release 2 :  Refactor
 
 Refactor your code. Keep in mind the concepts from POODR chapters 2-4. Ask yourself some of the following questions:
