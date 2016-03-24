@@ -35,7 +35,7 @@ Following our design from the *Pre-release* section, implement the gameplay as d
 
 
 ### Release 1: Refactor
-Refactor our code. Apply the concepts from Practical Object-oriented Design in Ruby, specifically Chapters 2 - 4. Questions be might ask ourselves:
+Refactor our code. Apply the concepts from Practical Object-oriented Design in Ruby, specifically Chapters 2 - 4. Questions we might ask ourselves:
 
 - Is the code DRY?
 - Are the methods and variables appropriately named?
